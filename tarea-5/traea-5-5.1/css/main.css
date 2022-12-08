@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor-1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.summer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    font-weight: bolder;
+    color: white;
+    opacity: 0.5;
+}
+
+.imagen-principal {
+    width: 100vw;
+    margin-bottom: 15px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.imagen-galeria {
+    width: 400px;
+}
