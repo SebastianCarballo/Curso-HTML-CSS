@@ -7,6 +7,11 @@
     color: white;
 }
 
-.button::after {
+
+/* .button::after {
+    content: '¡Hecho!';
+} */
+
+.button:hover::before {
     content: '¡Hecho!';
 }
