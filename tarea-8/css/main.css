@@ -1,0 +1,13 @@
+.container {
+    background-color: greenyellow;
+    padding: 5px;
+}
+
+.row {
+    background-color: aquamarine;
+    border: solid 2px black;
+}
+
+.relleno {
+    border: solid 1px black;
+}
