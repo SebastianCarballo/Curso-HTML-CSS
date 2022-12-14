@@ -1,0 +1,33 @@
+* {
+    font-family: monospace;
+    background-color: black;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.btn-modern {
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.btn-modern:hover {
+    box-shadow: 2px 2px 2px white;
+    transform: translateY(-5px);
+    background-color: aqua;
+    color: black;
+    transition: transform 0.4s;
+}
